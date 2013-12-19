@@ -1,0 +1,11 @@
+<h1>Listing emails</h1>
+<table>
+<tr>
+<th>Email</th>
+</tr>
+<% @emails.each do |email| %>
+<tr>
+<td><%= email.emailid%></td>
+</tr>
+<% end %>
+</table>
